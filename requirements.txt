@@ -23,4 +23,4 @@ python-dotenv
 
 # Machine Learning Utilities
 numpy
-scikit-learns
+scikit-learn
