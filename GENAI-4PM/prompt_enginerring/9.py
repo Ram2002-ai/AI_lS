@@ -84,4 +84,4 @@ if st.button("🔍 Generate Response"):
 
 
 st.markdown("---")
-st.caption("Built with Streamlit + Google Gemini API + Prakash Senapati")
+st.caption("Built with Streamlit + Google Gemini API ")
