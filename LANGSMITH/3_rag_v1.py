@@ -33,7 +33,7 @@ splits=splitter.split_documents(docs)
 
 # 3) Embed +index
 emb=HuggingFaceEmbeddings(
-    model_name="BAAI/bge-small-en-v1.5"
+    model_name="BAAI/bge-small-en-v1.5" #"sentence-transformers/all-MiniLM-L6-v2"
 )
 vs=FAISS.from_documents(splits,emb)
 retriever=vs.as_retriever(search_type='similarity',search_kwargs={'k':4})
